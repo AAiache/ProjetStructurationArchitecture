@@ -11,7 +11,9 @@ Rapport du projet de structuration
 
 Master 2 : Technologies des Systèmes d'Information (TSI)  
 Ecole Nationale des Sciences Géographiques (ENSG)  
-11 Janvier 2016  
+11 Janvier 2016
+
+GitHub : https://github.com/AAiache/ProjetStructurationArchitecture    
 
 
 ##Contexte du Projet  
@@ -20,10 +22,10 @@ L'objectif étant d'arriver à modéliser une problématique autour d'un réseau
 Dans notre cas, nous avons assayé de contacter plusieurs organismes, notamment les aéroports de Paris, la SNCF et d'autres.  
 Nous avons reçu une première réponse de la part de l'aéroport de Paris Charles de Gaulle, où il nous ont demandé de leur donner plus de détails sur le projet et son déroulement, nous avons bien répondu clairement, mais nous n'avons pas reçu une réponse définitive.  
 Nous avons eu le même problème avec la SNCF.  
-Malheureusement aucun n'organisme n'a donc accepté de nous accueillir, ce qui a fait que nous avons changé de sujet plusieurs fois, et finalement nous avons choisi de travailler sur un sujet qui soit le plus documenté sur internet, affin que nous puissions le réaliser sans avoir effectué une visite.  
+Malheureusement aucun n'organisme n'a donc accepté de nous accueillir, ce qui a fait que nous avons changé de sujet plusieurs fois, et finalement nous avons choisi de travailler sur un sujet qui soit le plus documenté sur internet, afin que nous puissions le réaliser sans avoir effectué une visite.  
 ##Introduction
 Nous avons choisi de travailler sur les réseaux liés au réseau autoroutier en France, car ils mettent à disposition à travers leur site web et d'autres sources une documentation solide, qui nous a permis de proposer une modélisation d'une problèmatique que nous avons imaginée.  
-Dans ce rapport, nous essayons tout d'abord de présenter les réseaux qui sont associés au réseau autoroutié. Par la suite, nous avons imaginé qu'il y a un problème qui va touché l'un ou tous les réseau, et nous allons imaginer comment on va intervenir pour résoudre le problème.  
+Dans ce rapport, nous essayons tout d'abord de présenter les réseaux qui sont associés au réseau autoroutié. Par la suite, nous avons imaginé qu'il y a un problème qui va touché l'un ou tous les réseau, et nous allons prévoir comment on va intervenir pour résoudre le problème.  
 ## 1 - Identification des réseaux liés aux autoroutes de France
 Pour arriver à identifier ces réseaux, nous avons déterminé tous les cas d'utilisation qui sont inclus dans le SI des autoroutes, comme le montre la figure suivante:  
 ![MacDown logo](/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagramGlobal.png)  
@@ -113,5 +115,13 @@ Un **PK** est un point kilométrique est une marque ou repère utilisé pour loc
 
 ![MacDown logo](/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/ClassDiagram1.png)  
 
-##Conclusions et perspectives
-##Biobliographie
+##Conclusions et perspectives  
+Ce projet nous a permis de proposer une modélisation d'une problèmatique qui peut avoir lieu sur une autoroute et qui nécessite l'intervention de tous les réseaux qui sont liés à son Système d'Information.  
+Malgré le fait que l'on a pas pu effectuer une visite du SI des autoroutes de France, ni contacter un responsable technique qui peut nous approcher plus de comment ça se passe rééllement chez eux, nous avons pu découvrir comment tous les réseaux liés à un SI peuvent interagir entre eux en situation de crise afin de pouvoir la dépasser.  
+Comme perspective de notre projet, nous pensons qu'il serait bien de pouvoir réaliser une visite, afin de pouvoir comparer notre modélisation à ce qui existe réellemment, et de pouvoir corriger nos erreurs, et aussi de répondre à plusieurs questions auxquelles nous n'avons pas pu répondre lors du projet.  
+
+##Webographie
+
+> www.autoroutes.fr  
+> www.fr.wikipédia.fr  
+> www.aprr.fr  
