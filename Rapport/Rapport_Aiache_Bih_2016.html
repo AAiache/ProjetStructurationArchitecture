@@ -304,11 +304,9 @@ sup {
 </style>
 </head>
 <body>
-<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Images/LOGO-ENSG.png" alt="ENSG logo" title="logo">       </p>
+<h1 id="toc_0">Rapport du projet de structuration et architecture</h1>
 
-<h1 id="toc_0">Rapport projet structuration et Archnitecture</h1>
-
-<p><span style="color:#5F983F">Étude des réseaux liés aux autoroutes de France</span></p>
+<p><span style="color:#5F983F">Étude des réseaux liés aux autoroutes de France</span>  </p>
 
 <p><strong>Réalisé par :</strong>  </p>
 
@@ -319,18 +317,163 @@ sup {
 </ul>
 </blockquote>
 
-<p>Master 2 : Technologies des Système d&#39;Information (TSI)<br>
-Ecole Nationale des Sciences Géographiques (ENSG)<br>
-<strong>Encadré par :</strong>  </p>
+<p><strong>Encadré par :</strong>  </p>
 
 <blockquote>
 <ul>
 <li>M. Emmanuel Bardière<br></li>
 </ul>
+</blockquote>
+
+<p>Master 2 : Technologies des Systèmes d&#39;Information (TSI)<br>
+Ecole Nationale des Sciences Géographiques (ENSG)<br>
+11 Janvier 2016</p>
+
+<p>GitHub : https://github.com/AAiache/ProjetStructurationArchitecture    </p>
+
+<h2 id="toc_1">Contexte du Projet</h2>
+
+<p>Dans le cadre de notre formation, nous avons ce projet de structuration et de modélisation qui a pour but de prendre contact avec des sociétés ou organismes qui ont la gestion d&#39;un Système d&#39;information afin de proposer une modélisation d&#39;une utilisation identifiée de façon précise.<br>
+L&#39;objectif étant d&#39;arriver à modéliser une problématique autour d&#39;un réseau, d&#39;un Système d&#39;Information avec toutes ses composantes.<br>
+Dans notre cas, nous avons essayé de contacter plusieurs organismes, notamment les aéroports de Paris, la SNCF et d&#39;autres.<br>
+Nous avons reçu une première réponse de la part de l&#39;aéroport de Paris Charles de Gaulle, où il nous ont demandé de leur donner plus de détails sur le projet et son déroulement, nous avons bien répondu clairement, mais nous n&#39;avons pas reçu une réponse définitive.<br>
+Nous avons eu le même problème avec la SNCF.<br>
+Malheureusement aucun n&#39;organisme n&#39;a donc accepté de nous accueillir, ce qui a fait que nous avons changé de sujet plusieurs fois, et finalement nous avons choisi de travailler sur un sujet qui soit le plus documenté sur internet, afin que nous puissions le réaliser sans avoir effectué une visite.  </p>
+
+<h2 id="toc_2">Introduction</h2>
+
+<p>Nous avons choisi de travailler sur les réseaux liés au réseau autoroutier en France, car ils mettent à disposition à travers leur site web et d&#39;autres sources une documentation solide, qui nous a permis de proposer une modélisation d&#39;une problématique que nous avons imaginée.<br>
+Dans ce rapport, nous essayons tout d&#39;abord de présenter les réseaux qui sont associés au réseau autoroutier. Par la suite, nous avons imaginé qu&#39;il y a un problème qui va toucher un ou tous les réseaux, et nous allons prévoir comment on va intervenir pour résoudre le problème.  </p>
+
+<h2 id="toc_3">1 - Identification des réseaux liés aux autoroutes de France</h2>
+
+<p>Pour arriver à identifier ces réseaux, nous avons déterminé tous les cas d&#39;utilisation qui sont inclus dans le SI des autoroutes, comme le montre la figure suivante:<br>
+<img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagramGlobal.png" alt="MacDown logo"><br>
+Nous allons maintenant expliquer chacun des cas d&#39;utilisation à part.  </p>
+
+<h3 id="toc_4">1-1 - Gestion du trafic routier</h3>
+
+<p>Le diagramme des cas d&#39;utilisation suivant l&#39;explique:<br>
+<img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagram1.png" alt="MacDown logo"><br>
+Les panneaux lumineux qui indiquent en temps réel les éventuels incidents que les usagers risquent de rencontrer. En période normale ils peuvent donner quelques conseils de prudence. 
+Le troisième cas d&#39;utilisation indique comment réagir en face de fortes affluences sur les autoroutes qui ont une influence sur la gestion du trafic.  </p>
+
+<h3 id="toc_5">1-2 - Gestion du réseau de la fibre optique (FO)</h3>
+
+<p>La figure suivante montre les cas d&#39;utilisations inclus dans ce cas:<br>
+<img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagram2.png" alt="MacDown logo"><br>
+Les informations transmises au serveurs de données sont parfois destinées à être affichées dans les panneaux à message variable, et/ou diffusées par Radio.<br>
+Par contre il y a des données qui sont destinées à être transmise aux secours lorsqu&#39;il s&#39;agit d&#39;un incident.  </p>
+
+<h3 id="toc_6">1-3 - Gestion du réseau hydraulique</h3>
+
+<p>Ce qui expliqué dans le diagramme suivant:<br>
+<img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagram3.png" alt="MacDown logo">  </p>
+
+<h3 id="toc_7">1-4 Gestion du réseau électrique</h3>
+
+<p>C’est ce que montre la figure suivante:<br>
+<img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagram4.png" alt="MacDown logo">  </p>
+
+<h3 id="toc_8">1-5 Gestion du réseau de stations météorologiques</h3>
+
+<p>Le réseau autoroutier de la France est équipé de capteurs météo qui sont placées sur les bords de l&#39;autoroute. C&#39;est un réseau de stations pour recueillir des données météorologiques.<br>
+Le diagramme suivant montre les différents cas d&#39;utilisation de la gestion du réseau de stations météo :  </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagram5.png" alt="MacDown logo">  </p>
+
+<h3 id="toc_9">1-6 Gestion des secours</h3>
+
+<p>L&#39;une des principales missions des autoroutes de France est d&#39;assurer la sécurité des usagers et des équipements de l’autoroute. Les cas d&#39;utilisation de la gestion des secours sont explicités dans le diagramme qui suit :  </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/UseCaseDiagram6.png" alt="MacDown logo">  </p>
+
+<h2 id="toc_10">2 - Intervention sur le réseau : cas d&#39;un incendie</h2>
+
+<h3 id="toc_11">1-2 - Définition du problème</h3>
+
+<p><strong>Qui :</strong> Un camion-citerne transportant du gaz<br>
+<strong>Quoi :</strong> Explosion du camion<br>
+<strong>Où</strong> Près d&#39;une station de péage<br>
+<strong>Conséquences :</strong><br>
+- Un grand nombre de morts et de blessés (usagers et agents d&#39;autoroutes)<br>
+- De nombreuses voitures ont étés brûlées en plus du camion<br>
+- La station a été partiellement brûlée<br>
+- Coupure d&#39;eau et d&#39;électricité<br>
+- Dégradations au niveau du réseau de la fibre optique est donc la transmission du flux de données a été coupée.<br>
+<strong>Problèmatique :</strong> Comment faire intervenir tous les réseaux pour résoudre le problème ?  </p>
+
+<h3 id="toc_12">1-3 - Modélisation de la résolution du problème en utilisant l&#39;UML</h3>
+
+<p>Nous allons donc proposer une modélisation des étapes de la résolution du problème, par ordre chronologique, depuis que l&#39;incident s&#39;est produit jusqu&#39;à la réparation de tous les réseaux.<br>
+Nous avons d&#39;utiliser des diagrammes de séquence parce que, si les diagrammes de cas d&#39;utilisation listent des interactions avec des acteurs en spécifiant les grandes fonctions d&#39;un système, les diagrammes de séquences permettent de décrire <strong>comment</strong> les éléments d&#39;un système et les acteurs interagissent. C&#39;est donc le diagramme le mieux adapté qui va nous permettre de montrer comment tous les réseaux du système vont être utilisés en vue de résoudre une situation de crise.  </p>
+
+<h4 id="toc_13">1-3-1 - Étape 1 : Alerter tous les services concernés de l&#39;incident</h4>
+
+<p>Ce diagramme de séquence illustre l’action de l’usager depuis la détection de l’incident, la recherche du poste d’appel d’urgence et la déclaration au PC de sécurité qui va à son tour avertir le service concerné pour envoyer  les secours nécessaires à la zone de danger.  </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/AppelTe%CC%81le%CC%81phonique.png" alt="MacDown logo">  </p>
+
+<h4 id="toc_14">1-3-2 - Étape 2 : Intervention des secours</h4>
+
+<p>Ce diagramme modélise l’intervention de différentes entités de secours : pompiers, ambulances, secouristes, policiers et gendarmes pour garantir la sécurité des usagers, la lutte contre la propagation de l’incendie, la protection des biens, transporter les blessées vers un établissement hospitalier, et sans oublier les secouristes qui disposent généralement du matériel nécessaire à la surveillance et aux premiers soins des blessés. </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/InterventionSecours.png" alt="MacDown logo">  </p>
+
+<h4 id="toc_15">1-3-3 - Étape 3 : Gestion du trafic</h4>
+
+<p>Le diagramme ci-dessous a pour but de  mette en évidence la relation entre les différentes entités du système de gestion du trafic autoroutier lors de l’explosion d’un camion transporteur de gaz près d’une station de péage , et décrire  la réaction du système face à cet incident sur le réseau autoroutier, tout en détaillant le rôle de chacune des entités et les multiples tâches dont elles sont chargées depuis le recueil de l’information jusqu’à les différents étape d’intervention . Ces informations sont retransmises aux automobilistes via les panneaux à message variable pour signaler un incident, et aussi par l’intermédiaire d’Autoroute Info qui est la radio. Ceci a pour objectif la sécurité des usagers de l’autoroute, que ce soit les usagers1 qui sont loin de danger  pour éviter  les bouchons et de conseiller une sortie ou un itinéraire plus favorable, ou bien les usagers2 qui sont dans la zone de danger afin de les secourir.  </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/GestionTrafic.png" alt="MacDown logo">  </p>
+
+<h4 id="toc_16">1-3-4 - Étape 4 : Réaliser une enquête sur place</h4>
+
+<p>Nous n&#39;avons pas pu trouver une source d&#39;informations officielle, et donc c&#39;est nous qui avons imaginé que cette étape est essentielle avant de commencer à réparer les réseaux.<br>
+Elle consiste a envoyer des experts sur place, en réseau hydraulique, électrique et en réseau de la fibre optique afin de s&#39;assurer qu&#39;il n&#39;y a pas de vrais dangers qui peuvent donner lieu à d&#39;autres incidents. S&#39;il y a donc toute sorte de danger, on va la résoudre avant tout. Le digramme de séquence suivant montre les détailles de cette étapes :</p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/Re%CC%81aliserEnque%CC%82teSurPlace.png" alt="MacDown logo">  </p>
+
+<h4 id="toc_17">1-3-5 - Étape 5 : Nettoyer le lieu de l&#39;incident</h4>
+
+<p>Dans cette étape, nous avons modéliser comment l&#39;on va vider le lieu de l&#39;incident de tous les restes, il n&#39;y a plus de présence humaine à ce stade car on a évacué le lieu auparavant.<br>
+On va ainsi enlever toutes les voitures endommagées et tous les restes afin de pouvoir laver l&#39;autoroute. C&#39;est ce qu&#39;explique le diagramme suivant : </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/NettoyerLieuIncident.png" alt="MacDown logo">  </p>
+
+<h4 id="toc_18">1-3-6 - Étape 6 : Réparer les réseaux</h4>
+
+<p>Cette étape constitue la dernière étape. On commence donc par réparer tous les réseaux et on effectue un test pour s&#39;assurer que la transmission des flux se fait bien avant de réparer les chaussées.<br>
+Ci-dessous le dernier diagramme de séquence : </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/Re%CC%81parerRe%CC%81seaux.png" alt="MacDown logo">  </p>
+
+<h2 id="toc_19">3 - Diagramme de classes</h2>
+
+<p>En ce qui concerne le diagramme de classes, nous avons proposé un diagramme de classes général, mais de point de vue réseau, et donc il n&#39;est pas lié au cas d&#39;intervention sur le réseau que nous avons fait.<br>
+<strong>AttenuateurChoc :</strong> Si un usager sort accidentellement de la chaussée, les glissières de sécurité amortiront le choc et limiteront ses conséquences. Les glissières en terre-plein central empêchent le franchissement des voies.<br>
+<strong>IndicateurVent :</strong> Le long des autoroutes, des mâts avec des manches à air, &quot;des chaussettes&quot;, rouges et blanches striées, indiquant la direction et l&#39;intensité du vent.<br>
+<strong>BandeUrgence :</strong> La bande d&#39;urgence à droite de la file normale de circulation n&#39;est pas une aire de repos : ne s&#39;y arrêter qu&#39;en cas de danger réel.<br>
+<strong>PanneauMessageVariable :</strong> Les panneaux lumineux indiquant en temps réel les éventuels incidents que les usager risquent de rencontrer. En période normale ils peuvent donner quelques conseils de prudence.<br>
+<strong>EcranAntiEblouissement :</strong> Dans les descentes ou les courbes, les usagers pouvent être éblouis par les phares des voitures circulant dans l&#39;autre sens. Des palettes bien orientées, posées sur les glissières du terre-plein central leur évitent toute vision directe des phares.<br>
+Un <strong>PK</strong> est un point kilométrique est une marque ou repère utilisé pour localiser un point le long d&#39;une voie de transport, notamment dans notre cas le long d&#39;une autoroute. Elle est calculée en mesurant en kilomètres la portion de voie comprise entre le point localisé et un point zéro (topographie) propre à chaque voie, servant d&#39;origine du repère.  </p>
+
+<p><img src="/Users/amina/Desktop/ProjetStructurationArchitecture/Diagrammes/ClassDiagram1.png" alt="MacDown logo">  </p>
+
+<p>Une Autoroute peut ou non être gérée par une société concessionnaire, car il existe des autoroutes que l&#39;Etat n&#39;a pas concédées.<br>
+Une autoroute a un ou plusieurs PC (Poste de Contrôle), qui se constituent de serveurs de données qui leur permettent de stocker les données, de serveurs de calcul, d&#39;ordinateurs et de grands écrans qui leur facilitent leur tâche de contrôle.   </p>
+
+<h2 id="toc_20">Conclusions et perspectives</h2>
+
+<p>Ce projet nous a permis de proposer une modélisation d&#39;une problématique qui peut avoir lieu sur une autoroute et qui nécessite l&#39;intervention de tous les réseaux qui sont liés à son Système d&#39;Information.<br>
+Malgré le fait que l&#39;on a pas pu effectuer une visite du SI des autoroutes de France, ni contacter un responsable technique qui peut nous approcher plus de comment ça se passe réellement chez eux, nous avons pu découvrir comment tous les réseaux liés à un SI peuvent interagir entre eux en situation de crise afin de pouvoir la dépasser.<br>
+Comme perspective de notre projet, nous pensons qu&#39;il serait bien de pouvoir réaliser une visite, afin de pouvoir comparer notre modélisation à ce qui existe réellement, et de pouvoir corriger nos erreurs, et aussi de répondre à plusieurs questions auxquelles nous n&#39;avons pas pu répondre lors du projet.  </p>
+
+<h2 id="toc_21">Webographie</h2>
 
 <blockquote>
-<p>11 Janvier 2016</p>
-</blockquote>
+<p>www.autoroutes.fr<br>
+www.fr.wikipédia.fr<br>
+www.aprr.fr  </p>
 </blockquote>
 
 

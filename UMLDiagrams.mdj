@@ -7641,7 +7641,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFSJd1ik7meNWg="
 							},
-							"name": "Nétoyer le lieu de l'incident",
+							"name": "Nettoyer le lieu de l'incident",
 							"visible": true,
 							"defaultDiagram": false,
 							"ownedViews": [
@@ -7671,12 +7671,12 @@
 											"containerChangeable": false,
 											"containerExtending": true,
 											"left": 72,
-											"top": 209,
-											"width": 156,
+											"top": 29,
+											"width": 160,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "Nétoyer le lieu de l'incident",
+											"text": "Nettoyer le lieu de l'incident",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -7696,7 +7696,7 @@
 											"containerChangeable": false,
 											"containerExtending": true,
 											"left": 9,
-											"top": 209,
+											"top": 29,
 											"width": 61,
 											"height": 13,
 											"autoResize": false,
@@ -7716,9 +7716,9 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 									"left": 4,
-									"top": 204,
+									"top": 24,
 									"width": 1669,
-									"height": 649,
+									"height": 829,
 									"autoResize": false,
 									"nameLabel": {
 										"$ref": "AAAAAAFSJd1ik7mhZlo="
@@ -51009,6 +51009,8 @@
 						"$ref": "AAAAAAFSJ28EVFTYsoM="
 					},
 					"wordWrap": false,
+					"suppressAttributes": null,
+					"suppressOperations": null,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -54245,6 +54247,8 @@
 						"$ref": "AAAAAAFSMYtAj7xPDeQ="
 					},
 					"wordWrap": false,
+					"suppressAttributes": null,
+					"suppressOperations": null,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
