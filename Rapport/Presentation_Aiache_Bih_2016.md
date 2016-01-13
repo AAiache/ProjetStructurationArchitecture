@@ -1,5 +1,1 @@
-#Slide 1  
-#Presentation du projet de structuration et d'architecture
-
-#Slide 2  
-#Planning
+https://swipe.to/14755pjpr6ats35
